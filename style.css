@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: "Duepuntozero";
+}
+@font-face {
+    font-family: "Duepuntozero";
+    src: url(./font/UTM\ Duepuntozero.ttf);
+}
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+}
+.row{
+    display: flex;
+    padding:10px 0;
+}
+header .row{
+    background-color: orangered;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    padding:10px 30px;
+    gap:10px;
+    margin-top: 10px;
+}
+li{
+    list-style: none;
+    border-right: 1px solid white;
+    padding:0 20px;
+    height: 30px;
+}
+li:last-child{
+    border:none;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+.active,a:hover{
+    color:brown;
+}
+form{
+    margin-right: 30px;
+}
+.input-search{
+    border:none;
+    border-radius: 5px;
+    height:20px;
+}
+.btn-search{
+    background-color:orangered;
+    color:white;
+    border:1px solid white;
+    height:20px;
+    border-radius:5px;
+    width:70px;
+
+}
+.logo-banner img{
+    width:99%;
+    height:300px;
+    margin-top: 10px;
+    padding:0px 6px;
+    
+}
+.title-content{
+    font-size: 26px;
+    font-weight: 500;
+    /* padding:10px 0; */
+}
+.content .row{
+    justify-content: space-between;
+}
+.product-col{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border:1px solid black;
+    height:300px;
+    width:390px;
+    
+}
+
+.product-col img{
+    width: 280px;
+    height: 150px;
+    padding:40px 60px;
+    transition: all 3s ease;
+    
+}
+.product-col img:hover{
+ transform:rotate(360deg);
+    
+}
+
+
+.product-name{
+    color:black;
+}
+.product-name{
+    font-size: 20px;
+    font-weight: 500;
+}
+.price_sell{
+    font-size: 18px;
+    font-weight: 700;
+    color:brown;
+}
+.price_goc{
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+footer .container{
+    height: 30px;
+    background-color: orangered;
+    text-align: center;
+    color:white;
+    font-size: 16px;
+    font-weight: 500;
+    padding:10px 0;
+    margin-top: 70px;
+}
